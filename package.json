@@ -1,6 +1,9 @@
 {
   "name": "api-rest",
   "module": "index.ts",
+  "scripts": {
+    "start": "bun index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/express": "5.0.0"
