@@ -106,7 +106,7 @@ app.delete("/movies/:id", (req, res) => {
 	res.json({ message: "movie deleted" });
 });
 
-const PORT = Bun.env.PORT ?? 1234;
+const PORT = process.env.PORT ?? 1234;
 
 app.listen(PORT, () => {
 	console.log(`Servidor escuchand en http://localhost:${PORT}`);
